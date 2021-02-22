@@ -1,7 +1,12 @@
 class Account {
     Integer id;
     String name;
-    String Document;
+    String document;
     String emai;
     String password;
+
+    public Account(String name, String document) {
+        this.name = name;
+        this.document = document;
+    }
 }
