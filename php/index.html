@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<htmllang="en">
+<head>
+    <metacharset="UTF-8">
+    <metahttp-equiv="X-UA-Compatible"content="IE=edge">
+    <metaname="viewport"content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <?php
+    require_once("Car.php");
+    require_once("Account.php");
+
+    $car = new Car("324522490", new Account("Monica", "3245254311"));
+    $car -> printDataCar();
+    ?>
+</body>
+</html>
