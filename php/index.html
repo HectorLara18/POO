@@ -8,11 +8,20 @@
 </head>
 <body>
     <?php
-    require_once("Car.php");
-    require_once("Account.php");
+class Account {
+    public $id;
+    public $name;
+    public $document;
+    public $email;
+    public $password;
 
-    $car = new Car("324522490", new Account("Monica", "3245254311"));
-    $car -> printDataCar();
-    ?>
+    public function __construct($name, $document){
+        $this->name = $name;
+        $this->document = $document;
+    }
+
+}
+
+?>
 </body>
 </html>
