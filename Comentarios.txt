@@ -1,0 +1,189 @@
+POO: Programacion Orientada a Objetos
+
+conceptops basicos: 
+
+Que es:
+    1. Encapsulación
+    2. Abstraccion
+    3. Herenca
+    4. Polimorfismo
+
+para empezar hay que 
+    1. Analizar 
+    2. Plasmar(Diagrama)
+    3. Programar
+
+Lenguajes para el curso: 
+    1. Java
+    2. Python
+    3. PHP
+    4. Java
+
+Programacion Estructurada -> se genera de forma secuencial 
+
+la programacion orientada a objetos se dedica a resolver muchos de los problemas que la programacion estructurada nos dejo en el camino
+
+Soluciones: 
+
+- Codigo mas Corto
+- Facil de mantener 
+- codigo "spagueti"
+
+Paradigma de POO:
+    
+    Surge a partir de los problemas que se necesitan plasmas en codigo 
+
+    Clases
+    Propiedades
+    Metodos 
+    Objetos
+
+Un objeto tiene:
+
+    -Clases
+    -Metodos
+    -Propiedades
+
+
+Pilares de POO: 
+
+    Encasulamiento
+    Abstraccion
+    Herencia
+    Polimorfismo
+
+Lenguajes Orientados a Objetos:
+
+    Java (.java)
+    PHP (.php)
+    Python (.py)
+    Javascript (.js)
+    C#
+    Ruby
+    Kotlin
+
+tipos de diagramas:
+
+    OMT: Object Modeling Techniques
+        son tecnicas de modelado/metodologia 
+        plazma objetos en recuadros incluyendo atributos 
+
+    UML: Unified Modeling Lenguage
+        toma las bases del omt y une para tener diagramas de clases, casos de uso, estados etc...
+    
+Objeto: 
+    tiene atributos ej sustantivo nombre, tamaño, etc...
+    comportamientos ej verbos/ustantivos login, make report
+tambien es necesario entender el contexto de los objetos 
+
+ejemplo: 
+
+Centro de adopción de un perrito 
+
+    Propiedades:
+        + id
+        + Nombre
+        + Color
+        + Raza
+
+    comportamiento
+        + serAdoptado()
+
+
+perro {
+    id: ,
+    adoptado: , 
+    Nombre: ,
+    Raza: ,
+}
+
+Clase: Modeo  por  el cual nuestros objeetos se van  a contruir 
+
+abstraccion: son los modelos sobre los cuuales construiremos objetos
+
+Diseño Modular: es subdividir un istema en partes mas pequeñas(modulos)
+
+---------------------------
+
+Ejemplo UBER
+
+Objetos: 
+    1. User
+    2. Route
+    3. Car
+    4. Driver
+    5. Cash
+    6. Trip
+
+UML
+
+Nombre
+Atributos
+Funcionalidades
+
+Nombre Clase:
+    Atributo 1
+    Atributo 2
+    Atributo 3
+    Operacion 1
+    Operacion 2
+    Operacion 3
+
+CLase Persona:
+
+Person:
+    name
+    walk()
+
+Ejemplo de escritura en lenguajes: 
+
+Java:
+    class Person {
+        string name= "";
+    }
+
+Python:
+    class Person:
+        name = "";
+        def walk():
+
+Javascript:
+    function Person() {}
+    Person.prototype.walk = function(){}
+
+PHP:
+    class Person {
+        $name = "";
+        function walk(){}
+    }
+
+como declarar un nuevo objeto por cada lenguaje: 
+
+Java:
+
+class objeto = new class();
+
+Person person = new Person();
+
+Javascript
+
+var objeto = new class();
+
+var person = new Person();
+
+Python:
+
+objeto = class();
+
+prson = Person();
+
+PHP
+
+$objeto = new class();
+
+$person = new Person(); 
+
+--------------------------------------
+
+Metodo Constructor: 
+    d un estado inicia al objeto, tiene el mismo nombre de la clase y son los parametros minimos que necesitamos para que el objeto pueda vivir
