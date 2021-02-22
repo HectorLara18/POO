@@ -187,3 +187,28 @@ $person = new Person();
 
 Metodo Constructor: 
     d un estado inicia al objeto, tiene el mismo nombre de la clase y son los parametros minimos que necesitamos para que el objeto pueda vivir
+
+
+--------------------------------------
+Herencias
+
+Java:
+
+class Strudent extend Person
+
+
+Python:
+
+class Student(Person)
+
+
+
+Javascript
+
+student.prototype = New Person()
+
+
+
+PHP
+
+class Student extend Person
