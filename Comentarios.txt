@@ -212,3 +212,24 @@ student.prototype = New Person()
 PHP
 
 class Student extend Person
+
+
+------------------------------------------------
+
+Encasulamiento: esconder o restringir el dato para que no pueda ser visto o modificado fuera de las normas que nosotros planteamos
+
+en Java tenemos: 
+
+1. Public       -> Todas las Clases
+2. Protected    -> Clases, Paquetes y Subclases
+3. Default      -> Clases y paquetes
+4. Private      -> Clases
+
+Getter y Setter
+
+Polimorfismo: es tener un metodo compartido entre varias clases y cada clase le da el comportamiento que necesita. 
+
+contruir metodos(Funciones) con el mismo nombre pero con comportamiento diferente
+
+
+En nuestro ejemplo es setPassenger y getPassenger
