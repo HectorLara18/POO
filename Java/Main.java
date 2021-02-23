@@ -12,5 +12,8 @@ class Main {
         UberPool Carro2 = new UberPool("HLS1234", new Account("Hector Lara", "HL1234"), "Honda", "City");
         Carro2.printDataCar();
         Carro2.printBrand();
+
+        User Hector = new User("Hector Lara", "LASH181292");
+        Hector.printName();
     }
 }
